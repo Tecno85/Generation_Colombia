@@ -123,6 +123,10 @@ main li {
   border: 1px solid rgb(113, 112, 112);
 }
 
+.generos_similares {
+  padding: 40px;
+}
+
 /* Footer */
 
 footer {
