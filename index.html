@@ -5,27 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Titan Forge Studios</title>
     <link rel="stylesheet" href="assets/styles/styles.css" />
-    <link rel="icon" href="images/logo.png" />
+    <link rel="icon" href="assets/images/icon_favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Iceland&family=Rubik+Vinyl&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Iceland&family=Rubik+Vinyl&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
   </head>
   <body>
     <header>
       <img
-        src="assets/images/img_titan21.png"
+        src="/assets/images/img_titan_logo.png"
         alt="Imagen Logo"
         class="img_titan_forge_studios"
       />
       <div class="navbar">
-        <img src="assets/images/lupa.png" alt="Imagen Lupa" />
         <ul>
-          <li>Login</li>
-          <li class="subscribete">Subscribete</li>
+          <li><a href="/assets/pages/game.html" class="games">Games</a></li>
+          <li><a href="#" class>Login</a></li>
+          <li><a href="#" class="a_subscribete">Subscribete</a></li>
         </ul>
+        <img src="/assets/images/lupa.png" alt="Imagen Lupa" class="lupa" />
       </div>
     </header>
     <main>
@@ -38,7 +43,11 @@
             mundos futuristas llenos de tecnología y batallas épicas.
           </p>
         </section>
-        <img src="assets/images/piloto.jpeg" alt="Imagen Piloto" class="piloto" />
+        <img
+          src="assets/images/img_mech_piloto.jpeg"
+          alt="Imagen Piloto"
+          class="img_mech_piloto"
+        />
         <section class="especialidad">
           <h3>Especialidad</h3>
           <p>
@@ -60,9 +69,10 @@
           </ul>
         </section>
         <img
-          src="assets/images/img_mech_wars.png"
+          src="assets/images/img_titan_force.png"
           alt="Imagen Control"
-          class="img_mech_wars"
+          class="img_titan_force"
+          img_mech_piloto
         />
         <section class="caracteristicas">
           <h3>Caracteristicas Distintivas</h3>
@@ -81,11 +91,27 @@
           <h3>Objetivo de Ventas</h3>
           <p>
             Queremos alcanzar más de 1 millón de copias vendidas en nuestro
-            primer lanzamioento y posicionarnos como refrentes en juegos de
+            primer lanzamiento y posicionarnos como refrentes en juegos de
             combate entre mechas.
           </p>
         </section>
       </div>
     </main>
+    <footer>
+      <article class="icon">
+        <section class="github">
+          <a
+            href="https://github.com/Tecno85/Generation_Colombia.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="github"
+            ><i class="fa-brands fa-github-alt"></i> GitHub</a
+          >
+        </section>
+      </article>
+      <article class="created-by">
+        Created_by__Ivan Madrid Daza <i class="fa-solid fa-laptop"></i>
+      </article>
+    </footer>
   </body>
 </html>

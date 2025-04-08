@@ -1,0 +1,166 @@
+:root {
+  --font-family-navbar: "Anek Latin", sans-serif;
+  --font-secondary: "Rubik Vinyl", sans-serif;
+  --font-title-icon: "Iceland", sams-serif;
+  --font-title-footer: "Tourney", serif;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #31363f;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  padding: 15px;
+  background: #24272e;
+}
+
+.img_titan_forge_studios {
+  border: 2px solid grey;
+  border-radius: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e0e3e3;
+  gap: 20px;
+  list-style: none;
+  font-family: var(--font-family-navbar);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #e0e3e3;
+}
+
+a,
+.lupa {
+  cursor: url(/assets/images/finger.png), auto;
+}
+
+.a_subscribete {
+  border-radius: 0.3rem;
+  padding: 6px;
+  background: rgb(211, 210, 210);
+  color: #31363f;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--font-secondary);
+  color: rgb(185, 185, 185);
+  padding: 40px 100px;
+}
+
+main h1 {
+  letter-spacing: 3px;
+  font-size: 35px;
+}
+
+main h3 {
+  text-align: left;
+  padding: 10px 0px;
+  letter-spacing: 3px;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+
+.piloto {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(113, 112, 112);
+  width: 350px;
+}
+
+p, main li {
+  font-family: var(--font-family-navbar);
+  text-align: justify;
+  line-height: 30px;
+  letter-spacing: 1px;
+  list-style-type: square;
+}
+
+.img_mech_wars,
+.soldados,
+.img_robots,
+.img_robots_1 {
+  width: 450px;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(113, 112, 112);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #24272e;
+  border-top: none;
+  border-radius: 0.4rem;
+  gap: 5px;
+  padding: 17px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: var(--font-title-icon);
+}
+
+.github a {
+  font-size: 21px;
+  text-decoration: none;
+  color: rgb(195, 194, 194);
+}
+
+.created-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-title-footer);
+  font-size: 17px;
+  font-weight: 550;
+  gap: 10px;
+  color: rgb(195, 194, 194);
+}
+
+.created-by i {
+  font-size: 20px;
+}
