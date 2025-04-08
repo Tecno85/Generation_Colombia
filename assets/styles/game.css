@@ -99,13 +99,14 @@ main h3 {
   width: 600px;
 }
 
-.piloto {
+.img_mech_1 {
   border-radius: 0.5rem;
   border: 1px solid rgb(113, 112, 112);
   width: 350px;
 }
 
-p, main li {
+p,
+main li {
   font-family: var(--font-family-navbar);
   text-align: justify;
   line-height: 30px;
@@ -113,10 +114,10 @@ p, main li {
   list-style-type: square;
 }
 
-.img_mech_wars,
-.soldados,
-.img_robots,
-.img_robots_1 {
+.img_mech,
+.img_mech_2,
+.img_mech_piloto_1,
+.img_mech_3 {
   width: 450px;
   border-radius: 0.5rem;
   border: 1px solid rgb(113, 112, 112);
