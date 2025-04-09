@@ -24,7 +24,15 @@ header {
   background: #24272e;
 }
 
-.img_titan_forge_studios {
+.images_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.img_titan_forge_studios,
+.img_unity {
   border: 2px solid grey;
   border-radius: 0.5rem;
 }
