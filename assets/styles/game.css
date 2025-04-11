@@ -19,7 +19,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 100px;
   padding: 15px;
   background: #24272e;
 }
@@ -64,7 +63,7 @@ ul a {
 
 a,
 .lupa {
-  cursor: url(../images/finger.png), auto;
+  cursor: url(../images/icon_finger.png), auto;
 }
 
 .a_subscribete {
