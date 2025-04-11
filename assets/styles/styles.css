@@ -1,10 +1,12 @@
+/* Variables Globales*/
 :root {
   --font-family-navbar: "Anek Latin", sans-serif;
   --font-secondary: "Rubik Vinyl", sans-serif;
-  --font-title-icon: "Iceland", sams-serif;
+  --font-title-icon: "Iceland", sans-serif;
   --font-title-footer: "Tourney", serif;
 }
 
+/* Reset y estilos globales*/
 html,
 body {
   box-sizing: border-box;
@@ -14,7 +16,6 @@ body {
 }
 
 /* Header */
-
 header {
   display: flex;
   justify-content: space-around;
@@ -66,7 +67,7 @@ a,
   cursor: url(../images/icon_finger.png), auto;
 }
 
-.a_subscribete {
+.btn_suscribete {
   border-radius: 0.3rem;
   padding: 6px;
   background: rgb(211, 210, 210);
@@ -74,7 +75,6 @@ a,
 }
 
 /* Main */
-
 main {
   display: flex;
   flex-direction: column;
@@ -130,7 +130,6 @@ p,
 }
 
 /* Footer */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -171,49 +170,3 @@ footer {
 .created-by i {
   font-size: 20px;
 }
-
-/*
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atomic+Age&family=Bruno+Ace+SC&family=Bungee+Shade&family=Cabin+Sketch:wght@400;700&family=Carter+One&family=Changa+One:ital@0;1&family=Chango&family=Coiny&family=Frijole&family=Julius+Sans+One&family=Major+Mono+Display&family=Monoton&family=Oxanium:wght@200..800&family=Pixelify+Sans:wght@400..700&family=Poiret+One&family=Rammetto+One&family=Ribeye+Marrow&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+80s+Fade&family=Rubik+Burned&family=Rubik+Glitch&family=Rubik+Marker+Hatch&family=Rubik+Microbe&family=Rubik+Moonrocks&family=Rubik+Scribble&family=Rubik+Vinyl&family=Saira+Stencil+One&family=Sarala:wght@400;700&family=Share+Tech+Mono&family=Sixtyfour+Convergence&family=Stick&family=Supermercado+One&family=Tektur:wght@400..900&family=Tilt+Neon&family=Tilt+Prism&family=Tourney:ital,wght@0,100..900;1,100..900&family=Trade+Winds&family=Train+One&display=swap" rel="stylesheet">
-
-
- font-family: "Roboto", sans-serif;
-  font-family: "Monoton", sans-serif;
-  font-family: "Poiret One", sans-serif;
-  font-family: "Oxanium", sans-serif;
-  font-family: "Rammetto One", sans-serif;
-  font-family: "Changa One", sans-serif;
-  font-family: "Carter One", system-ui;
-  font-family: "Share Tech Mono", monospace;
-  font-family: "Julius Sans One", sans-serif;
-  font-family: "Tektur", sans-serif;
-  font-family: "Chango", sans-serif;
-  font-family: "Sarala", sans-serif;
-  font-family: "Cabin Sketch", sans-serif;
-  font-family: "Major Mono Display", monospace;
-  font-family: "Tilt Neon", sans-serif;
-  font-family: "Bungee Shade", sans-serif;
-  font-family: "Supermercado One", sans-serif;
-  font-family: "Pixelify Sans", sans-serif;
-  font-family: "Coiny", system-ui;
-  font-family: "Saira Stencil One", sans-serif;
-  font-family: "Frijole", system-ui;
-  font-family: "Stick", sans-serif;
-  font-family: "Trade Winds", system-ui;
-  font-family: "Rubik Vinyl", system-ui;
-  font-family: "Atomic Age", system-ui;
-  font-family: "Rubik Scribble", system-ui;
-  font-family: "Train One", system-ui;
-  font-family: "Bruno Ace SC", sans-serif;
-  font-family: "Rubik Glitch", system-ui;
-  font-family: "Ribeye Marrow", serif;
-  font-family: "Rubik Moonrocks", sans-serif;
-  font-family: "Sixtyfour Convergence", sans-serif;
-  font-family: "Tilt Prism", sans-serif;
-  font-family: "Tourney", sans-serif;
-  font-family: "Rubik Burned", system-ui;
-  font-family: "Rubik Microbe", system-ui;
-  font-family: "Rubik 80s Fade", system-ui;
-  font-family: "Rubik Marker Hatch", system-ui;
-*/
